@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1700439878",
+        "python_version": "3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 05:35:01) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\fakan\\miniconda3\\envs\\unityhu\\Scripts\\mlagents-learn --force",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1700439940"
+    },
+    "total": 61.606907500000005,
+    "count": 1,
+    "self": 0.006742400000007365,
+    "children": {
+        "run_training.setup": {
+            "total": 0.13407740000000068,
+            "count": 1,
+            "self": 0.13407740000000068
+        },
+        "TrainerController.start_learning": {
+            "total": 61.466087699999996,
+            "count": 1,
+            "self": 0.0001310999999830642,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.46593080000001,
+                    "count": 1,
+                    "self": 61.46593080000001
+                },
+                "TrainerController._save_models": {
+                    "total": 2.5800000003073364e-05,
+                    "count": 1,
+                    "self": 2.5800000003073364e-05
+                }
+            }
+        }
+    }
+}
