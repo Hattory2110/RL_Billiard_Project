@@ -1,0 +1,29 @@
+{
+    "Phisical_Controller": {
+        "checkpoints": [
+            {
+                "steps": 74134,
+                "file_path": "results\\Run_3\\Phisical_Controller\\Phisical_Controller-74134.onnx",
+                "reward": -783.9813442101349,
+                "creation_time": 1701294499.6616116,
+                "auxillary_file_paths": [
+                    "results\\Run_3\\Phisical_Controller\\Phisical_Controller-74134.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 74134,
+            "file_path": "results\\Run_3\\Phisical_Controller.onnx",
+            "reward": -783.9813442101349,
+            "creation_time": 1701294499.6616116,
+            "auxillary_file_paths": [
+                "results\\Run_3\\Phisical_Controller\\Phisical_Controller-74134.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

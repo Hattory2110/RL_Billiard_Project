@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    },
+    "Phisical_Controller": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\Run_1\\Phisical_Controller\\Phisical_Controller-0.onnx",
+                "reward": null,
+                "creation_time": 1701286551.5055017,
+                "auxillary_file_paths": [
+                    "results\\Run_1\\Phisical_Controller\\Phisical_Controller-0.pt"
+                ]
+            },
+            {
+                "steps": 499990,
+                "file_path": "results\\Run_1\\Phisical_Controller\\Phisical_Controller-499990.onnx",
+                "reward": -810.3554162251747,
+                "creation_time": 1701288076.7263856,
+                "auxillary_file_paths": [
+                    "results\\Run_1\\Phisical_Controller\\Phisical_Controller-499990.pt"
+                ]
+            },
+            {
+                "steps": 999986,
+                "file_path": "results\\Run_1\\Phisical_Controller\\Phisical_Controller-999986.onnx",
+                "reward": -747.4979932785034,
+                "creation_time": 1701289447.0761387,
+                "auxillary_file_paths": [
+                    "results\\Run_1\\Phisical_Controller\\Phisical_Controller-999986.pt"
+                ]
+            },
+            {
+                "steps": 1000050,
+                "file_path": "results\\Run_1\\Phisical_Controller\\Phisical_Controller-1000050.onnx",
+                "reward": -747.4979932785034,
+                "creation_time": 1701289447.2472582,
+                "auxillary_file_paths": [
+                    "results\\Run_1\\Phisical_Controller\\Phisical_Controller-1000050.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000050,
+            "file_path": "results\\Run_1\\Phisical_Controller.onnx",
+            "reward": -747.4979932785034,
+            "creation_time": 1701289447.2472582,
+            "auxillary_file_paths": [
+                "results\\Run_1\\Phisical_Controller\\Phisical_Controller-1000050.pt"
+            ]
+        }
+    }
+}

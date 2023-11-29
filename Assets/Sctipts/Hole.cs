@@ -7,11 +7,12 @@ public class Hole : MonoBehaviour, ISink
 {
 
     //counter for how many balls were hit down the hole for tensorboard
+    [SerializeField] private BallEventManager ballEventManager;
     int count = 0;
     
     public void OnSink(Balls ball)
     {
-        BallEventManager.Instance.TriggerBallEvent(ball.team);
+        ballEventManager.TriggerBallEvent(ball.team);
 
         if(ball.TryGetComponent(out Phisical_Controller controller))
         {
@@ -23,6 +24,11 @@ public class Hole : MonoBehaviour, ISink
         }
         ball.gameObject.SetActive(false);
         count++;
+    }
+
+    public Transform GetPosition()
+    {
+        return this.transform;
     }
 
 }

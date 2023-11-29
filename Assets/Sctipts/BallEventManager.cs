@@ -6,18 +6,7 @@ using UnityEngine;
 
 public class BallEventManager : MonoBehaviour
 {
-    public static BallEventManager Instance;
-
     private List<IObserver<BallEvent>> observers = new List<IObserver<BallEvent>>();
-
-    private void Awake() {
-        if (Instance == null) {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        } else {
-            Destroy(gameObject);
-        }
-    }
 
     [SerializeField]private  List<Balls> balls = new List<Balls>();
     

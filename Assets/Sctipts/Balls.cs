@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Balls : MonoBehaviour, IHitable
 {
+    [SerializeField] private BallEventManager ballEventManager;
     public Team team;
 
     //counter counts how many times the ball has been hit for tensor board
@@ -12,7 +13,7 @@ public class Balls : MonoBehaviour, IHitable
 
     public void OnHit(Team team)
     {
-        BallEventManager.Instance.TriggerBallEventHit(team);
+        ballEventManager.TriggerBallEventHit(team);
         counter++;
     }
 
