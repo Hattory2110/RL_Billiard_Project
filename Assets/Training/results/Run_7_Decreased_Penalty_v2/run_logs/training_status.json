@@ -1,0 +1,65 @@
+{
+    "Phisical_Controller": {
+        "checkpoints": [
+            {
+                "steps": 4499986,
+                "file_path": "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-4499986.onnx",
+                "reward": -30.743152171373367,
+                "creation_time": 1701323305.7642403,
+                "auxillary_file_paths": [
+                    "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-4499986.pt"
+                ]
+            },
+            {
+                "steps": 4999981,
+                "file_path": "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-4999981.onnx",
+                "reward": -26.26242010103118,
+                "creation_time": 1701324849.8401084,
+                "auxillary_file_paths": [
+                    "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-4999981.pt"
+                ]
+            },
+            {
+                "steps": 5499973,
+                "file_path": "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-5499973.onnx",
+                "reward": -23.664828525534993,
+                "creation_time": 1701326580.204643,
+                "auxillary_file_paths": [
+                    "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-5499973.pt"
+                ]
+            },
+            {
+                "steps": 5999983,
+                "file_path": "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-5999983.onnx",
+                "reward": -23.891183652544534,
+                "creation_time": 1701328253.2645547,
+                "auxillary_file_paths": [
+                    "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-5999983.pt"
+                ]
+            },
+            {
+                "steps": 6000047,
+                "file_path": "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-6000047.onnx",
+                "reward": -23.891183652544534,
+                "creation_time": 1701328253.5153837,
+                "auxillary_file_paths": [
+                    "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-6000047.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 6000047,
+            "file_path": "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller.onnx",
+            "reward": -23.891183652544534,
+            "creation_time": 1701328253.5153837,
+            "auxillary_file_paths": [
+                "results\\Run_7_Decreased_Penalty_v2\\Phisical_Controller\\Phisical_Controller-6000047.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

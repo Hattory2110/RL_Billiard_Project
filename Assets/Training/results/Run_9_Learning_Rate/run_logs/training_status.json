@@ -1,0 +1,47 @@
+{
+    "Phisical_Controller": {
+        "checkpoints": [
+            {
+                "steps": 499991,
+                "file_path": "results\\Run_9_Learning_Rate\\Phisical_Controller\\Phisical_Controller-499991.onnx",
+                "reward": -33.700262099896605,
+                "creation_time": 1701334091.1045332,
+                "auxillary_file_paths": [
+                    "results\\Run_9_Learning_Rate\\Phisical_Controller\\Phisical_Controller-499991.pt"
+                ]
+            },
+            {
+                "steps": 999968,
+                "file_path": "results\\Run_9_Learning_Rate\\Phisical_Controller\\Phisical_Controller-999968.onnx",
+                "reward": -33.83205772235113,
+                "creation_time": 1701335588.9488366,
+                "auxillary_file_paths": [
+                    "results\\Run_9_Learning_Rate\\Phisical_Controller\\Phisical_Controller-999968.pt"
+                ]
+            },
+            {
+                "steps": 1000080,
+                "file_path": "results\\Run_9_Learning_Rate\\Phisical_Controller\\Phisical_Controller-1000080.onnx",
+                "reward": -33.887498915195465,
+                "creation_time": 1701335589.1651018,
+                "auxillary_file_paths": [
+                    "results\\Run_9_Learning_Rate\\Phisical_Controller\\Phisical_Controller-1000080.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000080,
+            "file_path": "results\\Run_9_Learning_Rate\\Phisical_Controller.onnx",
+            "reward": -33.887498915195465,
+            "creation_time": 1701335589.1651018,
+            "auxillary_file_paths": [
+                "results\\Run_9_Learning_Rate\\Phisical_Controller\\Phisical_Controller-1000080.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

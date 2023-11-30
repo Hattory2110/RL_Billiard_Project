@@ -1,0 +1,47 @@
+{
+    "Phisical_Controller": {
+        "checkpoints": [
+            {
+                "steps": 499996,
+                "file_path": "results\\Run_10\\Phisical_Controller\\Phisical_Controller-499996.onnx",
+                "reward": -35.846765842876934,
+                "creation_time": 1701337648.0886233,
+                "auxillary_file_paths": [
+                    "results\\Run_10\\Phisical_Controller\\Phisical_Controller-499996.pt"
+                ]
+            },
+            {
+                "steps": 999997,
+                "file_path": "results\\Run_10\\Phisical_Controller\\Phisical_Controller-999997.onnx",
+                "reward": -36.44100668056067,
+                "creation_time": 1701339067.0939085,
+                "auxillary_file_paths": [
+                    "results\\Run_10\\Phisical_Controller\\Phisical_Controller-999997.pt"
+                ]
+            },
+            {
+                "steps": 1000221,
+                "file_path": "results\\Run_10\\Phisical_Controller\\Phisical_Controller-1000221.onnx",
+                "reward": -36.44100668056067,
+                "creation_time": 1701339067.333812,
+                "auxillary_file_paths": [
+                    "results\\Run_10\\Phisical_Controller\\Phisical_Controller-1000221.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000221,
+            "file_path": "results\\Run_10\\Phisical_Controller.onnx",
+            "reward": -36.44100668056067,
+            "creation_time": 1701339067.333812,
+            "auxillary_file_paths": [
+                "results\\Run_10\\Phisical_Controller\\Phisical_Controller-1000221.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

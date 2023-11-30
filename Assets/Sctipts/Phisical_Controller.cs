@@ -12,8 +12,8 @@ public class Phisical_Controller : Agent, IObserver<BallEvent>
     [SerializeField] private BallEventManager ballEventManager;
     [SerializeField] private BallManager ballManager;
     [SerializeField] float innerVelocityThreshold = 0.001f;
-    [SerializeField] int baseReward = 100;
-    [SerializeField] int basePenalty = 50;
+    [SerializeField] int baseReward = 150;
+    [SerializeField] int basePenalty = 70;
 
     private Boolean canShoot;
 
@@ -109,7 +109,7 @@ public class Phisical_Controller : Agent, IObserver<BallEvent>
 
         if (!canShoot)
         {
-            AddReward(-0.2f);
+            AddReward(-0.01f);
         }
 
         Vector2 shootingDirection = new Vector2(horizontalDirection, verticalDirection);
@@ -175,7 +175,7 @@ public class Phisical_Controller : Agent, IObserver<BallEvent>
         if (hitable != null)
         {
             //a little reward for hitting any balls
-            AddReward(+0.4f);
+            AddReward(+5f);
         }
     }
 
@@ -231,12 +231,12 @@ public class Phisical_Controller : Agent, IObserver<BallEvent>
         if (e.team == this.team)
         {
             // Add reward for hitting the right balls
-            AddReward(1f);
+            AddReward(10f);
         }
         else if (e.team == Team.Both)
         {
             // Add penalty for hitting down the Black or White balls
-            AddReward(-5f);
+            AddReward(-25f);
         }
         else
         {
