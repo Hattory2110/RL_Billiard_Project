@@ -1,0 +1,56 @@
+{
+    "Phisical_Controller": {
+        "checkpoints": [
+            {
+                "steps": 302934,
+                "file_path": "results\\Run_4_Changed_Rewards\\Phisical_Controller\\Phisical_Controller-302934.onnx",
+                "reward": -995.6666599909464,
+                "creation_time": 1701297200.8507054,
+                "auxillary_file_paths": [
+                    "results\\Run_4_Changed_Rewards\\Phisical_Controller\\Phisical_Controller-302934.pt"
+                ]
+            },
+            {
+                "steps": 499981,
+                "file_path": "results\\Run_4_Changed_Rewards\\Phisical_Controller\\Phisical_Controller-499981.onnx",
+                "reward": -784.603271703251,
+                "creation_time": 1701297727.9353492,
+                "auxillary_file_paths": [
+                    "results\\Run_4_Changed_Rewards\\Phisical_Controller\\Phisical_Controller-499981.pt"
+                ]
+            },
+            {
+                "steps": 999988,
+                "file_path": "results\\Run_4_Changed_Rewards\\Phisical_Controller\\Phisical_Controller-999988.onnx",
+                "reward": -789.7967141729887,
+                "creation_time": 1701299173.205053,
+                "auxillary_file_paths": [
+                    "results\\Run_4_Changed_Rewards\\Phisical_Controller\\Phisical_Controller-999988.pt"
+                ]
+            },
+            {
+                "steps": 1000052,
+                "file_path": "results\\Run_4_Changed_Rewards\\Phisical_Controller\\Phisical_Controller-1000052.onnx",
+                "reward": -789.7967141729887,
+                "creation_time": 1701299173.3812237,
+                "auxillary_file_paths": [
+                    "results\\Run_4_Changed_Rewards\\Phisical_Controller\\Phisical_Controller-1000052.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000052,
+            "file_path": "results\\Run_4_Changed_Rewards\\Phisical_Controller.onnx",
+            "reward": -789.7967141729887,
+            "creation_time": 1701299173.3812237,
+            "auxillary_file_paths": [
+                "results\\Run_4_Changed_Rewards\\Phisical_Controller\\Phisical_Controller-1000052.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

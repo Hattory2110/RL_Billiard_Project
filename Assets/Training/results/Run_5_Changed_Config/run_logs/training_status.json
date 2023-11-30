@@ -1,0 +1,65 @@
+{
+    "Phisical_Controller": {
+        "checkpoints": [
+            {
+                "steps": 41192,
+                "file_path": "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-41192.onnx",
+                "reward": -715.5999946594238,
+                "creation_time": 1701302469.1044533,
+                "auxillary_file_paths": [
+                    "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-41192.pt"
+                ]
+            },
+            {
+                "steps": 499989,
+                "file_path": "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-499989.onnx",
+                "reward": -654.8545409549366,
+                "creation_time": 1701303995.628631,
+                "auxillary_file_paths": [
+                    "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-499989.pt"
+                ]
+            },
+            {
+                "steps": 999977,
+                "file_path": "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-999977.onnx",
+                "reward": -826.1749927600225,
+                "creation_time": 1701305466.1089115,
+                "auxillary_file_paths": [
+                    "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-999977.pt"
+                ]
+            },
+            {
+                "steps": 1499975,
+                "file_path": "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-1499975.onnx",
+                "reward": -817.8697604578595,
+                "creation_time": 1701307311.3714497,
+                "auxillary_file_paths": [
+                    "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-1499975.pt"
+                ]
+            },
+            {
+                "steps": 1500039,
+                "file_path": "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-1500039.onnx",
+                "reward": -817.8697604578595,
+                "creation_time": 1701307311.690882,
+                "auxillary_file_paths": [
+                    "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-1500039.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1500039,
+            "file_path": "results\\Run_5_Changed_Config\\Phisical_Controller.onnx",
+            "reward": -817.8697604578595,
+            "creation_time": 1701307311.690882,
+            "auxillary_file_paths": [
+                "results\\Run_5_Changed_Config\\Phisical_Controller\\Phisical_Controller-1500039.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

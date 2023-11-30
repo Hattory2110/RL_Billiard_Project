@@ -12,12 +12,12 @@ public class Phisical_Controller : Agent, IObserver<BallEvent>
     [SerializeField] private BallEventManager ballEventManager;
     [SerializeField] private BallManager ballManager;
     [SerializeField] float innerVelocityThreshold = 0.001f;
-    [SerializeField] int baseReward = 50;
+    [SerializeField] int baseReward = 100;
     [SerializeField] int basePenalty = 50;
 
     private Boolean canShoot;
 
-    public Team team = Team.none;
+    public Team team = Team.Full;
 
     private void Start()
     {
@@ -96,7 +96,7 @@ public class Phisical_Controller : Agent, IObserver<BallEvent>
     public override void OnEpisodeBegin()
     {
         // Reset relevant variables at the beginning of each episode
-        team = Team.none;
+        team = Team.Full;
         ballEventManager.Reset();
     }
 
@@ -175,18 +175,19 @@ public class Phisical_Controller : Agent, IObserver<BallEvent>
         if (hitable != null)
         {
             //a little reward for hitting any balls
-            AddReward(+0.01f);
+            AddReward(+0.4f);
         }
     }
 
     public void OnNotify(object sender, BallEvent e)
     {
+        
         if (team == Team.none)
         {
             // Set the team of the Ai for the first ball that was hit down first
             SetTeam(sender, e);
         }
-
+        
         if (e.team == this.team)
         {
             // Add reward for hitting the right balls
@@ -221,7 +222,12 @@ public class Phisical_Controller : Agent, IObserver<BallEvent>
 
     public void OnNotifyHit(object sender, BallEvent e)
     {
-        
+        if (team == Team.none)
+        {
+            // Set the team of the Ai for the first ball that was hit down first
+            SetTeam(sender, e);
+        }
+
         if (e.team == this.team)
         {
             // Add reward for hitting the right balls
